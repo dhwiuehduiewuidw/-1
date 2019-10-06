@@ -1,0 +1,19 @@
+{
+  "name": "u20-shiritori-bot-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/show0317sw/u20-shiritori-bot.git",
+  "author": "show0317sw <tunakan_8584@yahoo.co.jp>",
+  "license": "NYSL",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0",
+    "mecab-async": "^0.1.2",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0"
+  }
+}
